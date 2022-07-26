@@ -32,6 +32,6 @@
     - [x] Make it look pretty
 
 ## To Do
-- [] Tidy up styling further
-- [] Add media queries for responsivity
-- [] Separate eng-morse data and morse-eng data from main js
+- [ ] Tidy up styling further
+- [ ] Add media queries for responsivity
+- [ ] Separate eng-morse data and morse-eng data from main js
