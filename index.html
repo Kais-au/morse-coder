@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Morse Coder</title>
+		<link rel="stylesheet" href="./style/style.css" />
+		<script src="./src/morseCoder.js" defer></script>
+		<script src="https://kit.fontawesome.com/64d5bf7ff7.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Kais. Morse Code Translator <i class="fa-solid fa-terminal fa-fade"
+                style="--fa-animation-duration: 2s; --fa-fade-opacity: 0;"></i></h1>
+		</header>
+		<div class="container">
+			<p class="container__display" id="displayInput"></p>
+
+			<p class="container__display" id="displayOutput"></p>
+		</div>
+		<div class="textEntry">
+			<textarea
+				class="textEntry--field"
+				id="textInput"
+				value=""
+				placeholder="Enter English or Morse Code here!&#10;Morse should be separated by '[space][/][space]' (without square parenthesis)"
+			></textarea>
+			<button class="textEntry--convert" id="convertBtn">Convert ⇋</button>
+		</div>
+	</body>
+</html>
