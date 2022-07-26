@@ -3,7 +3,6 @@
 <img src="https://img.shields.io/github/commit-activity/m/kais-au/morse-coder?color=B3C6A1&label=Commits&style=for-the-badge" />
 
 ## MVP
----
 - [x] Create a user interface that allows the user to either input some English text or some Morse Code
 - [x] Create JS functions that would allow the user to:
   - [x] Translate their English text into Morse Code
@@ -12,7 +11,6 @@
 - [x] Make sure to keep your pure functions separated from the JS DOM interaction code.
 
 ## Tasks
----
 1. [x] Add const object for the translation codex (an object that holds all letters as properties with their morse code values assigned to them)
 2. [x] Add a function that acccepts a string and returns the morse code equivalent
     - [x] Split string into array
