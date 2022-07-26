@@ -2,6 +2,12 @@
 
 <img src="https://img.shields.io/github/commit-activity/m/kais-au/morse-coder?color=B3C6A1&label=Commits&style=for-the-badge" />
 
+<br>
+
+<img src="assets\img\morse coder.png" width= "50%" height= "50%" />
+
+<br>
+
 ## MVP
 - [x] Create a user interface that allows the user to either input some English text or some Morse Code
 - [x] Create JS functions that would allow the user to:
