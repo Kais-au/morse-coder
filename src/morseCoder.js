@@ -1,4 +1,4 @@
-//# English to Morse Code Library
+//# English to Morse Code Library #\\
 
 const toMorLib = {
 	A: ".-",
@@ -57,7 +57,7 @@ const toMorLib = {
 	"@": ".--.-.",
 };
 
-//# Morse Code to English Library
+//# Morse Code to English Library #\\
 
 const toEngLib = {
 	".-": "A",
@@ -117,17 +117,20 @@ const toEngLib = {
 };
 
 function convert(input) {
+	// Checking if the string contains letters, if it does we'll assume it's in english (Test) and convert into morse code. Otherwise we'll assume it's morse code (Test) and convert into english.
 	if (/[a-z]/gi.test(input)) {
 		const engToMor = input
 			.toUpperCase()
 			.split(" ")
 			.map((arr2) => {
-				return arr2
-					.split("")
-					.map((char) => {
-						return toMorLib[char] ? toMorLib[char] : char;
-					})
-					.join(" ");
+				return (
+					arr2
+						.split("")
+						.map((char) => {
+							return toMorLib[char] ? toMorLib[char] : char;
+						})
+						.join(" ")
+				);
 			})
 			.join(" / ");
 		return engToMor;
@@ -147,6 +150,7 @@ function convert(input) {
 	}
 }
 
+//% DOM Linking %\\
 const displayInput = document.getElementById("displayInput");
 const displayOutput = document.getElementById("displayOutput");
 const textInput = document.getElementById("textInput");
